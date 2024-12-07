@@ -1,0 +1,80 @@
+<!-- Contact Page for Bryan's Café -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Bryan's Café</a>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main id="contact">
+        <h2>Contact Us</h2>
+
+        <!-- Inquiry Form -->
+        <form action="#" method="post">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Branch Information -->
+        <section class="branches">
+            <h3>Our Branches</h3>
+            <ul>
+                <li>
+                    <strong>76 Devonshire St, Surry Hills NSW</strong><br>
+                    Phone: 02 9211 1234<br>
+                    Hours: Mon-Fri: 6:00-14:30, Sat-Sun: 7:00-15:00<br>
+                    <a href="https://goo.gl/maps/example1" target="_blank">View on Google Maps</a>
+                </li>
+                <li>
+                    <strong>451 Pitt St, Haymarket Sydney, NSW</strong><br>
+                    Phone: 02 9262 5678<br>
+                    Hours: Mon-Fri: 6:00-16:00, Sat-Sun: 7:00-15:00<br>
+                    <a href="https://goo.gl/maps/example2" target="_blank">View on Google Maps</a>
+                </li>
+                <li>
+                    <strong>31 Alfred Street, Circular Quay, NSW</strong><br>
+                    Phone: 02 8971 9101<br>
+                    Hours: Mon-Fri: 6:00-16:00, Sat-Sun: 7:00-15:00<br>
+                    <a href="https://goo.gl/maps/example3" target="_blank">View on Google Maps</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Bryan's Café</p>
+        <a href="privacy.html" target="_blank">Privacy Policy</a>
+    </footer>
+</body>
+</html>
